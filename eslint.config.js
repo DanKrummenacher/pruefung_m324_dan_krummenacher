@@ -2,8 +2,7 @@ export default [
   {
     rules: {
       eqeqeq: 'error',
-      'no-unused-vars': 'error'
+      'no-unused-vars': 'error',
     },
   },
 ];
-  
