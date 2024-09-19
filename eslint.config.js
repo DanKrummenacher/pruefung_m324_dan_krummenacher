@@ -1,17 +1,9 @@
 export default [
-    {
-      ignores: ['node_modules'],
+  {
+    rules: {
+      eqeqeq: 'error',
+      'no-unused-vars': 'error'
     },
-    {
-      files: ['**/*.js'],
-      languageOptions: {
-        ecmaVersion: 'latest',
-      },
-      rules: {
-        'no-unused-vars': 'error',  // Warnung in Fehler umwandeln
-        'no-console': 'off',
-        'semi': ['error', 'always']  // Semikolon erzwingen
-      },
-    },
-  ];
+  },
+];
   
