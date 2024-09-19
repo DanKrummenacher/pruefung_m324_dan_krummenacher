@@ -1,1 +1,1 @@
-# pruefung_m324_dan_krummenacher
+# Prüfung M324
